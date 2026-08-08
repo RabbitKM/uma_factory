@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "index_page_opening":
+        {
+            "[648, 672, 19, 46]": ["./assets/image/matching_template/index/page_opening/s1.png", 200, 0.01]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page_mode_select":
+        {
+            "[56, 73, 128, 242]": ["./assets/image/matching_template/enter_nurturing/page_mode_select/s1.png", 200, 0.05]
+        }
+    }
+}

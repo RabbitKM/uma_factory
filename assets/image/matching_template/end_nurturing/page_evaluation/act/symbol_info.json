@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_evaluation_act":
+        {
+            "[92, 105, 21, 43]": ["./assets/image/matching_template/end_nurturing/page_evaluation/act/s1.png", 200, 0.05]
+        }
+    }
+}

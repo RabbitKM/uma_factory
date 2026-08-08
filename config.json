@@ -1,0 +1,9 @@
+{
+  "loop_count": -1,
+  "normal_timeout_sec": 120,
+  "auto_wait_timeout_sec": 3600,
+  "poll_interval_sec": 1.0,
+  "auto_poll_interval_sec": 30.0,
+  "click_delay_sec": 0.5,
+  "pre_click_delay_sec": 1.0
+}

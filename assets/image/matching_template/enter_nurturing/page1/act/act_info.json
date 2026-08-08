@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page1_act":
+        {
+            "[548, 558, 172, 183]": ["./assets/image/matching_template/enter_nurturing/page1/act/s1.png", 127, 0.01]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "normal":
+    {
+        "page4_TP_pour_select_act":
+        {
+            "[117, 130, 299, 325]": ["./assets/image/matching_template/enter_nurturing/page4_TP_pour_select/act/b1.png", 200, 0.01], 
+            "[188, 201, 299, 325]": ["./assets/image/matching_template/enter_nurturing/page4_TP_pour_select/act/b2.png", 200, 0.01]
+        }
+    }
+}

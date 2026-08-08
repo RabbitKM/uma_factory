@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_claw_machine_act":
+        {
+			"[44, 59, 340, 351]": ["./assets/image/matching_template/nurturing/page_claw_machine/act/remain_three.png", 200, 0.05]
+        }
+    }
+}

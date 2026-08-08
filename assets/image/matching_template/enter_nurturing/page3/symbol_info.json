@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page3":
+        {
+            "[522, 534, 233, 299]": ["./assets/image/matching_template/enter_nurturing/page3/b1.png", 200, 0.05]
+        }
+    }
+}

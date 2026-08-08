@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_claw_machine":
+        {
+            "[137, 276, 215, 369]": ["./assets/image/matching_template/nurturing/page_claw_machine/s1.png", 220, 0.05]
+        }
+    }
+}

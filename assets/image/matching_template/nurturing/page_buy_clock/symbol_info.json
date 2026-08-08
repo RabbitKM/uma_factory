@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_buy_clock":
+        {
+            "[234, 251, 121, 250]": ["./assets/image/matching_template/nurturing/page_buy_clock/s1.png", 200, 0.1]
+        }
+    }
+}

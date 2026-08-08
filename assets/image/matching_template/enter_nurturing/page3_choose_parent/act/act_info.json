@@ -1,0 +1,10 @@
+{
+    "large": 
+    {
+        "enter_nurturing_page3_choose_parent_act":
+        {
+            "nonstatic": ["./assets/image/matching_template/enter_nurturing/page3_choose_parent/act/grade_frame.png", 245, 0.1], 
+			"[574, 590, 161, 206]": ["./assets/image/matching_template/enter_nurturing/page3_choose_parent/act/b1.png", 200, 0.1]
+        }
+    }
+}

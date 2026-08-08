@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_DMM_restart":
+        {
+            "[235, 250, 161, 209]": ["./assets/image/matching_template/nurturing/page_DMM_restart/s1.png", 200, 0.01]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "normal":
+    {
+        "nurturing_page_facility_act":
+        {
+            "nonstatic": ["./assets/image/matching_template/nurturing/page_skill/act/b1.png", 200, 0.1], 
+			"[2767, 2845, 800, 2095]": ["./assets/image/matching_template/nurturing/page_skill/act/s_end_of_page.png", 200, 0.01], 
+			"[35, 48, 0, 100]": ["./assets/image/matching_template/nurturing/page_skill/act/s_page_nurture.png", 127, 0.01], 
+			"[56, 73, 128, 242]": ["./assets/image/matching_template/nurturing/page_skill/act/s_skill_check.png", 200, 0.01], 
+			"[234, 251, 128, 242]": ["./assets/image/matching_template/nurturing/page_skill/act/s_skill_got.png", 200, 0.01], 
+			"[625, 638, 28, 57]": ["./assets/image/matching_template/nurturing/page_skill/act/b_skill_end.png", 200, 0.01]
+        }
+    }
+}

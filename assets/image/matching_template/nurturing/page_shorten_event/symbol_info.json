@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_shorten_event":
+        {
+            "[192, 207, 121, 249]": ["./assets/image/matching_template/nurturing/page_shorten_event/s1.png", 200, 0.01]
+        }
+    }
+}

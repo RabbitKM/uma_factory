@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "connection_error":
+        {
+            "[234, 251, 144, 225]": ["./assets/image/matching_template/connection_error/s1.png", 200, 0.01]
+        }
+    }
+}

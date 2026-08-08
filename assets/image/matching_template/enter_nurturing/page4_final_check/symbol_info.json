@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page4_final_check":
+        {
+            "[52, 76, 146, 223]": ["./assets/image/matching_template/enter_nurturing/page4_final_check/s1.png", 200, 0.01]
+        }
+    }
+}

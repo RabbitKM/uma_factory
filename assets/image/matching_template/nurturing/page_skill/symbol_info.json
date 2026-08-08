@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_skill":
+        {
+            "[35, 48, 0, 100]": ["./assets/image/matching_template/nurturing/page_skill/s1.png", 127, 0.07]
+        }
+    }
+}

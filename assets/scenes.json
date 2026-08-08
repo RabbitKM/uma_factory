@@ -1,0 +1,570 @@
+[
+  {
+    "id": "main_screen",
+    "desc": "主畫面：右下角育成按鈕",
+    "src_screenshot": "育成開始01.png",
+    "detect_region": [
+      400,
+      430,
+      314,
+      354
+    ],
+    "template": "assets/auto_templates/main_screen.png",
+    "threshold": 127,
+    "admitval": 0.07,
+    "click": [
+      280,
+      580
+    ],
+    "next": "enter_02",
+    "timeout": 300
+  },
+  {
+    "id": "enter_02",
+    "desc": "選擇育成種類：The Twinkle Legends 深色橫幅",
+    "src_screenshot": "育成開始02.png",
+    "detect_region": [
+      115,
+      128,
+      10,
+      76
+    ],
+    "template": "assets/auto_templates/enter_02.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      585
+    ],
+    "next": "enter_03",
+    "timeout": 30
+  },
+  {
+    "id": "enter_03",
+    "desc": "選擇育成馬：馬列表畫面",
+    "src_screenshot": "育成開始03.png",
+    "detect_region": [
+      115,
+      128,
+      10,
+      88
+    ],
+    "template": "assets/auto_templates/enter_03.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      184,
+      585
+    ],
+    "next": "enter_04",
+    "timeout": 30
+  },
+  {
+    "id": "enter_04",
+    "desc": "選擇繼承因子父母：相性畫面",
+    "src_screenshot": "育成開始04.png",
+    "detect_region": [
+      115,
+      128,
+      10,
+      88
+    ],
+    "template": "assets/auto_templates/enter_04.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      184,
+      585
+    ],
+    "next": "enter_05",
+    "timeout": 30
+  },
+  {
+    "id": "enter_05",
+    "desc": "選擇支援卡：デッキ3 畫面，點育成開始",
+    "src_screenshot": "育成開始05.png",
+    "detect_region": [
+      115,
+      128,
+      10,
+      83
+    ],
+    "template": "assets/auto_templates/enter_05.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      190,
+      585
+    ],
+    "next": [
+      "enter_06_tp",
+      "enter_06_ok"
+    ],
+    "timeout": 30
+  },
+  {
+    "id": "enter_06_ok",
+    "desc": "最終確認：TP足夠，點育成開始",
+    "src_screenshot": "育成開始06.png",
+    "detect_region": [
+      50,
+      78,
+      148,
+      224
+    ],
+    "template": "assets/auto_templates/enter_06_ok.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      260,
+      640
+    ],
+    "next": "skip_opening",
+    "timeout": 15
+  },
+  {
+    "id": "enter_06_tp",
+    "desc": "TP不足確認彈窗，點回復する",
+    "src_screenshot": "育成開始06_1.png",
+    "detect_region": [
+      443,
+      471,
+      227,
+      301
+    ],
+    "template": "assets/auto_templates/enter_06_tp.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      265,
+      455
+    ],
+    "next": "tp_list",
+    "timeout": 15
+  },
+  {
+    "id": "tp_list",
+    "desc": "TP回復清單：點タフネス30的使う（第2項）",
+    "src_screenshot": "育成開始06_2.png",
+    "detect_region": [
+      169,
+      224,
+      27,
+      131
+    ],
+    "template": "assets/auto_templates/tp_list.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      315,
+      195
+    ],
+    "next": "tp_confirm",
+    "timeout": 15
+  },
+  {
+    "id": "tp_confirm",
+    "desc": "タフネス30使用確認，點OK",
+    "src_screenshot": "育成開始06_3.png",
+    "detect_region": [
+      276,
+      293,
+      150,
+      222
+    ],
+    "template": "assets/auto_templates/tp_confirm.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      270,
+      505
+    ],
+    "next": "tp_done",
+    "timeout": 15
+  },
+  {
+    "id": "tp_done",
+    "desc": "TP回復完成，點閉じる",
+    "src_screenshot": "育成開始06_4.png",
+    "detect_region": [
+      360,
+      379,
+      122,
+      247
+    ],
+    "template": "assets/auto_templates/tp_done.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      460
+    ],
+    "next": "enter_05",
+    "timeout": 15
+  },
+  {
+    "id": "skip_opening",
+    "desc": "開頭動畫：點右下▶|快轉跳過",
+    "src_screenshot": "育成開始07.png",
+    "detect_region": [
+      631,
+      671,
+      316,
+      356
+    ],
+    "template": "assets/auto_templates/skip_opening.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      330,
+      652
+    ],
+    "next": "event_setting",
+    "timeout": 60
+  },
+  {
+    "id": "event_setting",
+    "desc": "イベント短縮設定：點決定",
+    "src_screenshot": "育成開始08.png",
+    "detect_region": [
+      185,
+      213,
+      115,
+      257
+    ],
+    "template": "assets/auto_templates/event_setting.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      500
+    ],
+    "next": "tutorial",
+    "timeout": 60
+  },
+  {
+    "id": "tutorial",
+    "desc": "教學對話：點說明を聞かない（黃色選項）",
+    "src_screenshot": "育成開始09.png",
+    "detect_region": [
+      444,
+      467,
+      41,
+      154
+    ],
+    "template": "assets/auto_templates/tutorial.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      460
+    ],
+    "next": "route_confirm",
+    "timeout": 60
+  },
+  {
+    "id": "route_confirm",
+    "desc": "マイローテ呼び出し確認：點決定",
+    "src_screenshot": "育成開始10.png",
+    "detect_region": [
+      232,
+      253,
+      92,
+      278
+    ],
+    "template": "assets/auto_templates/route_confirm.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      263,
+      451
+    ],
+    "next": "route_done",
+    "timeout": 30
+  },
+  {
+    "id": "route_done",
+    "desc": "レース予約完了：點閉じる",
+    "src_screenshot": "育成開始11.png",
+    "detect_region": [
+      231,
+      253,
+      126,
+      245
+    ],
+    "template": "assets/auto_templates/route_done.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      454
+    ],
+    "next": "nurture_main",
+    "timeout": 30
+  },
+  {
+    "id": "nurture_main",
+    "desc": "育成主畫面：點右上おまかせ橘色按鈕",
+    "src_screenshot": "育成開始12.png",
+    "detect_region": [
+      185,
+      211,
+      300,
+      367
+    ],
+    "template": "assets/auto_templates/nurture_main.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      338,
+      195
+    ],
+    "next": "auto_plan",
+    "timeout": 60
+  },
+  {
+    "id": "auto_plan",
+    "desc": "おまかせ育成プラン選択：點開始",
+    "src_screenshot": "育成開始13.png",
+    "detect_region": [
+      56,
+      73,
+      135,
+      235
+    ],
+    "template": "assets/auto_templates/auto_plan.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      260,
+      628
+    ],
+    "next": "auto_running",
+    "timeout": 30
+  },
+  {
+    "id": "auto_running",
+    "desc": "自動育成進行中：偵測右下角呼び止める白色按鈕",
+    "src_screenshot": "育成開始14.png",
+    "detect_region": [
+      655,
+      667,
+      286,
+      344
+    ],
+    "template": "assets/auto_templates/auto_running.png",
+    "threshold": 127,
+    "admitval": 0.1,
+    "click": null,
+    "next": "end_01",
+    "timeout": 30,
+    "wait_end_timeout": 3600,
+    "wait_end_poll": 120
+  },
+  {
+    "id": "end_01",
+    "desc": "育成完了確認畫面：點右下粉色育成完了！按鈕",
+    "src_screenshot": "育成完了01.png",
+    "detect_region": [
+      38,
+      46,
+      14,
+      79
+    ],
+    "template": "assets/auto_templates/end_01.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      295,
+      580
+    ],
+    "next": "end_02",
+    "timeout": 60
+  },
+  {
+    "id": "end_02",
+    "desc": "育成完了確認：點完了する（不選擇因子）",
+    "src_screenshot": "育成完了02.png",
+    "detect_region": [
+      191,
+      205,
+      136,
+      235
+    ],
+    "template": "assets/auto_templates/end_02.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      270,
+      405
+    ],
+    "next": "end_03",
+    "timeout": 30
+  },
+  {
+    "id": "end_03",
+    "desc": "育成ランク畫面：點次へ",
+    "src_screenshot": "育成完了03.png",
+    "detect_region": [
+      351,
+      365,
+      112,
+      155
+    ],
+    "template": "assets/auto_templates/end_03.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      635
+    ],
+    "wait_before_click_sec": 3,
+    "next": "end_04",
+    "timeout": 30
+  },
+  {
+    "id": "end_04",
+    "desc": "因子獲得畫面：點因子確定",
+    "src_screenshot": "育成完了04.png",
+    "detect_region": [
+      40,
+      81,
+      93,
+      276
+    ],
+    "template": "assets/auto_templates/end_04.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      260,
+      635
+    ],
+    "next": "end_05",
+    "timeout": 30,
+    "wait_before_click_sec": 1
+  },
+  {
+    "id": "end_05",
+    "desc": "因子確定確認：點確定",
+    "src_screenshot": "育成完了05.png",
+    "detect_region": [
+      56,
+      73,
+      135,
+      234
+    ],
+    "template": "assets/auto_templates/end_05.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      260,
+      635
+    ],
+    "next": "end_06",
+    "timeout": 30,
+    "wait_before_click_sec": 1
+  },
+  {
+    "id": "end_06",
+    "desc": "ウマ娘詳細：點閉じる",
+    "src_screenshot": "育成完了06.png",
+    "detect_region": [
+      55,
+      70,
+      144,
+      226
+    ],
+    "template": "assets/auto_templates/end_06.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      635
+    ],
+    "next": "end_07",
+    "timeout": 30,
+    "wait_before_click_sec": 2
+  },
+  {
+    "id": "end_07",
+    "desc": "SS RANKバッジ+比賽戰績：等待動畫後點次へ",
+    "src_screenshot": "育成完了07.png",
+    "detect_region": [
+      374,
+      387,
+      178,
+      237
+    ],
+    "template": "assets/auto_templates/end_07.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      635
+    ],
+    "wait_before_click_sec": 4,
+    "next": "end_08",
+    "timeout": 30
+  },
+  {
+    "id": "end_08",
+    "desc": "獲得報酬（ファン數）：等待動畫後點次へ",
+    "src_screenshot": "育成完了08.png",
+    "detect_region": [
+      34,
+      76,
+      94,
+      276
+    ],
+    "template": "assets/auto_templates/end_08.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      635
+    ],
+    "wait_before_click_sec": 4,
+    "next": "end_09",
+    "timeout": 30
+  },
+  {
+    "id": "end_09",
+    "desc": "獲得報酬（獲得アイテム）：點次へ",
+    "src_screenshot": "育成完了09.png",
+    "detect_region": [
+      34,
+      76,
+      94,
+      276
+    ],
+    "template": "assets/auto_templates/end_09.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      185,
+      635
+    ],
+    "next": "end_10",
+    "timeout": 30
+  },
+  {
+    "id": "end_10",
+    "desc": "育成完了最終畫面：點ホームへ回到主畫面",
+    "src_screenshot": "育成完了10.png",
+    "detect_region": [
+      189,
+      210,
+      149,
+      219
+    ],
+    "template": "assets/auto_templates/end_10.png",
+    "threshold": 127,
+    "admitval": 0.08,
+    "click": [
+      105,
+      500
+    ],
+    "next": "main_screen",
+    "timeout": 30
+  }
+]

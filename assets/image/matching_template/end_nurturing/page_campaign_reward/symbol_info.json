@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_campaign_reward":
+        {
+            "nonstatic": ["./assets/image/matching_template/end_nurturing/page_campaign_reward/s_page_campaign_reward.png", 200, 0.05]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "index_page_login_reward":
+        {
+            "[643, 660, 326, 345]": ["./assets/image/matching_template/index/page_login_reward/b1.png", 200, 0.05]
+        }
+    }
+}

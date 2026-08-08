@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_story_released":
+        {
+            "nonstatic": ["./assets/image/matching_template/end_nurturing/page_story_released/s1.png", 200, 0.01]
+        }
+    }
+}

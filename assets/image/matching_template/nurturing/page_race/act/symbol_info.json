@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_race_act":
+        {
+            "[623, 639, 93, 168]": ["./assets/image/matching_template/nurturing/page_race/act/b1.png", 200, 0.01]
+        }
+    }
+}

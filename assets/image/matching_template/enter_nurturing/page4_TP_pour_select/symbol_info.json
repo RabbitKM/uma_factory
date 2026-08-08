@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page4_TP_pour_select":
+        {
+            "[57, 73, 157, 212]": ["./assets/image/matching_template/enter_nurturing/page4_TP_pour_select/s1.png", 200, 0.01]
+        }
+    }
+}

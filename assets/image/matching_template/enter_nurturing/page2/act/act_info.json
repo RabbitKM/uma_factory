@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page2_act":
+        {
+            "nonstatic": ["./assets/image/matching_template/enter_nurturing/page2/act/stars.png", 200, 0.2]
+        }
+    }
+}

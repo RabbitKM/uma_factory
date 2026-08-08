@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_go_out_with_friend":
+        {
+            "[191, 208, 152, 218]": ["./assets/image/matching_template/nurturing/page_go_out_with_friend/s1.png", 200, 0.01]
+        }
+    }
+}

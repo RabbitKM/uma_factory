@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+calibrate_out/
+snap.png
+test.png
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Backup files
+*_bk.txt
+*.bak
+
+# Debug template copies
+assets/auto_templates/debug/
+
+# Game database (prevent accidental commit)
+*.mdb
+*.db

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_target_complete":
+        {
+            "[591, 606, 167, 203]": ["./assets/image/matching_template/nurturing/page_target_complete/b1.png", 200, 0.01]
+        }
+    }
+}

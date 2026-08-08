@@ -1,0 +1,10 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page4_act":
+        {
+            "[573, 590, 198, 241]": ["./assets/image/matching_template/enter_nurturing/page4/act/b1.png", 200, 0.01], 
+            "[365, 394, 278, 307]": ["./assets/image/matching_template/enter_nurturing/page4/act/b2.png", 200, 0.01]
+        }
+    }
+}

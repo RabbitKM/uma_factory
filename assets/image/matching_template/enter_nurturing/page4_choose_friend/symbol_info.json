@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page4_choose_friend":
+        {
+            "[51, 76, 99, 274]": ["./assets/image/matching_template/enter_nurturing/page4_choose_friend/s1.png", 200, 0.01]
+        }
+    }
+}

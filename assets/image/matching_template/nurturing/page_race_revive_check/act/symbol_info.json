@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_race_revive_check_act":
+        {
+            "[394, 444, 90, 139]": ["./assets/image/matching_template/nurturing/page_race_revive_check/act/alarm_clock.png", 200, 0.01]
+        }
+    }
+}

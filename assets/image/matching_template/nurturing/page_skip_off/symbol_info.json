@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_skip_off":
+        {
+            "[663, 675, 103, 164]": ["./assets/image/matching_template/nurturing/page_skip_off/b1.png", 200, 0.01]
+        }
+    }
+}

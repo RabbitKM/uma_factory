@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_inherit":
+        {
+            "[557, 576, 138, 230]": ["./assets/image/matching_template/nurturing/page_inherit/b1.png", 230, 0.2]
+        }
+    }
+}

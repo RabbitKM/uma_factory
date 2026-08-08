@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_skill_point_remain":
+        {
+            "[191, 208, 136, 234]": ["./assets/image/matching_template/end_nurturing/page_skill_point_remain/s1.png", 200, 0.01]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_opening":
+        {
+            "[645, 660, 328, 345]": ["./assets/image/matching_template/nurturing/page_opening/b1.png", 200, 0.01]
+        }
+    }
+}

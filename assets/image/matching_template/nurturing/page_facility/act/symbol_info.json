@@ -1,0 +1,13 @@
+{
+    "normal":
+    {
+        "nurturing_page_facility_act":
+        {
+            "[560, 604, 33, 77]": ["./assets/image/matching_template/nurturing/page_facility/act/forbid.png", 200, 0.01], 
+			"[560, 604, 98, 142]": ["./assets/image/matching_template/nurturing/page_facility/act/forbid.png", 200, 0.01], 
+			"[560, 604, 163, 207]": ["./assets/image/matching_template/nurturing/page_facility/act/forbid.png", 200, 0.01], 
+			"[560, 604, 228, 272]": ["./assets/image/matching_template/nurturing/page_facility/act/forbid.png", 200, 0.01], 
+			"[560, 604, 293, 337]": ["./assets/image/matching_template/nurturing/page_facility/act/forbid.png", 200, 0.01]
+        }
+    }
+}

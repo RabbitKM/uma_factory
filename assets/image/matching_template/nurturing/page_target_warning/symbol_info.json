@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_target_warning":
+        {
+            "[417, 459, 16, 58]": ["./assets/image/matching_template/nurturing/page_target_warning/s1.png", 200, 0.1]
+        }
+    }
+}

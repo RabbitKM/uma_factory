@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_evaluation":
+        {
+            "[626, 641, 167, 202]": ["./assets/image/matching_template/end_nurturing/page_evaluation/b1.png", 200, 0.01]
+        }
+    }
+}

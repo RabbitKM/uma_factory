@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_skill_reward":
+        {
+            "[233, 251, 71, 300]": ["./assets/image/matching_template/end_nurturing/page_skill_reward/s1.png", 200, 0.05]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "index_page_main":
+        {
+            "[388, 412, 318, 350]": ["./assets/image/matching_template/index/page_main/b1.png", 127, 0.1]
+        }
+    }
+}

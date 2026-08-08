@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_nurture_end_check":
+        {
+            "[35, 48, 0, 100]": ["./assets/image/matching_template/end_nurturing/page_nurture_end_check/s1.png", 127, 0.07]
+        }
+    }
+}

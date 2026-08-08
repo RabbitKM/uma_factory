@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page3_borrow_ckeck":
+        {
+            "[231, 254, 130, 241]": ["./assets/image/matching_template/enter_nurturing/page3_borrow_ckeck/s1.png", 200, 0.01]
+        }
+    }
+}

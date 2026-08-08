@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_race_select_act":
+        {
+            "nonstatic": ["./assets/image/matching_template/nurturing/page_race_select/act/fans_icon.png", 200, 0.1]
+        }
+    }
+}

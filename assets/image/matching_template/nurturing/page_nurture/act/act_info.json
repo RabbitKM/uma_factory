@@ -1,0 +1,41 @@
+{
+    "normal":
+    {
+        "nurturing_page_nurture_act":
+        {
+			"detect_energy_bar": "[113, 114, 118, 259]", 
+			"[543, 558, 286, 331]": ["./assets/image/matching_template/nurturing/page_nurture/act/b1.png", 200, 0.01], 
+			"[589, 604, 85, 131]": ["./assets/image/matching_template/nurturing/page_nurture/act/b2.png", 200, 0.01], 
+			"[108, 119, 313, 344]": ["./assets/image/matching_template/nurturing/page_nurture/act/mood_best.png", 200, 0.01], 
+			"[108, 119, 313, 344]": ["./assets/image/matching_template/nurturing/page_nurture/act/mood_good.png", 200, 0.01], 
+			"[108, 119, 313, 344]": ["./assets/image/matching_template/nurturing/page_nurture/act/mood_normal.png", 200, 0.01], 
+			"[108, 119, 313, 344]": ["./assets/image/matching_template/nurturing/page_nurture/act/mood_bad.png", 200, 0.01], 
+			"[108, 119, 313, 344]": ["./assets/image/matching_template/nurturing/page_nurture/act/mood_worst.png", 200, 0.01], 
+			"[613, 629, 67, 112]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_cure.png", 200, 0.01], 
+			"[624, 638, 211, 270]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_race.png", 200, 0.01], 
+			"[591, 606, 167, 203]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_target_complete.png", 200, 0.01], 
+			"[626, 642, 167, 203]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_target_failed.png", 200, 0.01], 
+			"[557, 576, 138, 230]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_inherit.png", 230, 0.1], 
+			"[35, 48, 0, 104]": ["./assets/image/matching_template/nurturing/page_nurture/act/s_end.png", 127, 0.01], 
+			"[150, 162, 306, 340]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_claw_machine.png", 200, 0.01], 
+			"[191, 208, 121, 250]": ["./assets/image/matching_template/nurturing/page_nurture/act/s_fans_insufficient.png", 200, 0.01], 
+			"[85, 96, 129, 226]": ["./assets/image/matching_template/nurturing/page_nurture/act/s_no_win.png", 200, 0.03], 
+			"[537, 562, 31, 93]": ["./assets/image/matching_template/nurturing/page_nurture/act/b_beach_sickandrest.png", 200, 0.01]
+        }
+    }, 
+	"very_large":
+	{
+        "nurturing_page_nurture_act":
+        {
+			"[155, 220, 48, 635]": ["./assets/image/matching_template/nurturing/page_nurture/act/s_before_debut.png", 200, 0.01], 
+			"[161, 214, 52, 330]": ["./assets/image/matching_template/nurturing/page_nurture/act/year1.png", 200, 0.01], 
+			"[161, 214, 52, 330]": ["./assets/image/matching_template/nurturing/page_nurture/act/year2.png", 200, 0.01], 
+			"[161, 214, 52, 273]": ["./assets/image/matching_template/nurturing/page_nurture/act/year3.png", 200, 0.01], 
+			"[161, 214, 52, 330]": ["./assets/image/matching_template/nurturing/page_nurture/act/yearURA.png", 200, 0.01], 
+			"detect_calendar": "[0, 213, 0, 649]", 
+			"nonstatic": ["./assets/image/matching_template/nurturing/page_nurture/act/month.png", 200, 0.02], 
+			"[month_pos.y-2, month_pos.y+50, month_pos.x, month_pos.x+163]": ["./assets/image/matching_template/nurturing/page_nurture/act/first_half.png", 200, 0.01], 
+			"[month_pos.y-2, month_pos.y+50, month_pos.x, month_pos.x+163]": ["./assets/image/matching_template/nurturing/page_nurture/act/latter_half.png", 200, 0.01]
+        }
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_skill_evolution_select":
+        {
+            "[56, 74, 145, 259]": ["./assets/image/matching_template/end_nurturing/page_skill_evolution_select/s1.png", 200, 0.01]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_game_update":
+        {
+            "[234, 251, 144, 226]": ["./assets/image/matching_template/nurturing/page_game_update/s1.png", 200, 0.01]
+        }
+    }
+}

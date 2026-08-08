@@ -1,0 +1,9 @@
+{
+    "very_large":
+    {
+        "enter_nurturing_page4_choose_friend_act":
+        {
+            "nonstatic": ["./assets/image/matching_template/enter_nurturing/page4_choose_friend/act/ftime.png", 200, 0.04]
+        }
+    }
+}

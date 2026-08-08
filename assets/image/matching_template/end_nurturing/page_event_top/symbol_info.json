@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_event_top":
+        {
+            "[191, 208, 102, 268]": ["./assets/image/matching_template/end_nurturing/page_event_top/s1.png", 200, 0.05]
+        }
+    }
+}

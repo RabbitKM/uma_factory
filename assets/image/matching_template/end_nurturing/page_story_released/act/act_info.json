@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_story_released_act":
+        {
+            "nonstatic": ["./assets/image/end_nurturing/page_story_released/act/b1.png", 200, 0.2]
+        }
+    }
+}

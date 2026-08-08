@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_campaign_token":
+        {
+            "[65, 97, 93, 281]": ["./assets/image/matching_template/end_nurturing/page_campaign_token/s3.png", 200, 0.05]
+        }
+    }
+}

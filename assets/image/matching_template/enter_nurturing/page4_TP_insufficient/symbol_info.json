@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "enter_nurturing_page4_TP_insufficient":
+        {
+            "[449, 465, 235, 295]": ["./assets/image/matching_template/enter_nurturing/page4_TP_insufficient/b1.png", 200, 0.05]
+        }
+    }
+}

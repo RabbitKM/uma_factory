@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "end_nurturing_page_factor_end_check":
+        {
+            "[49, 76, 129, 242]": ["./assets/image/matching_template/end_nurturing/page_factor_end_check/s1.png", 200, 0.01]
+        }
+    }
+}

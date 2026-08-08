@@ -1,0 +1,9 @@
+{
+    "normal":
+    {
+        "nurturing_page_race_recommend":
+        {
+            "[56, 73, 113, 259]": ["./assets/image/matching_template/nurturing/page_race_recommend/s1.png", 200, 0.01]
+        }
+    }
+}

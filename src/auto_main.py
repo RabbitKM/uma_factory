@@ -17,6 +17,20 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 from scrshot import screenshot_from_window_name, record_title_bar_height
 from template_matching import single_match_gray
 
+# ── 帶時間戳的 print ────────────────────────────────────────────
+# 讓 bat 視窗裡的每一行 log 都附上日期＋時間，中斷/出錯時方便對照發生時機
+_builtin_print = print
+
+def print(*args, **kwargs):
+    sep = kwargs.get("sep", " ")
+    text = sep.join(str(a) for a in args)
+    leading_newlines = ""
+    while text.startswith("\n"):
+        leading_newlines += "\n"
+        text = text[1:]
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    _builtin_print(f"{leading_newlines}[{timestamp}] {text}", **kwargs)
+
 # ── 全域停止旗標 ──────────────────────────────────────────────
 _stop = False
 

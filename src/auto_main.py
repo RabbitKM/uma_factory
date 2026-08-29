@@ -88,17 +88,18 @@ def _grab():
 
 
 # ── 場景偵測 ────────────────────────────────────────────────────
-def _detect(screen, scene):
+def _detect(screen, scene, return_minval=False):
     r = scene["detect_region"]  # [y1, y2, x1, x2]
     h, w = screen.shape[:2]
     y1, y2, x1, x2 = r
     y2 = min(y2, h)
     x2 = min(x2, w)
     if y2 <= y1 or x2 <= x1:
-        return False
+        return (False, 1.0) if return_minval else False
     crop = screen[y1:y2, x1:x2]
     return single_match_gray(crop, scene["_template"],
-                             scene["threshold"], scene["admitval"])
+                             scene["threshold"], scene["admitval"],
+                             return_minval=return_minval)
 
 
 # ── 點擊 ────────────────────────────────────────────────────────
@@ -166,9 +167,18 @@ def _wait_for_branch(next_ids, scene_map, config, timeout=15):
             print("[ERROR] 偵測到連線錯誤，程式終止")
             sys.exit(1)
 
+        # 對每個候選都算分數，取「有通過自己 admitval 門檻」中分數最低（最像）的
+        # 那一個，而不是照 next_ids 順序第一個通過就採用──避免某個候選的偵測區域
+        # 剛好誤判命中時，因為排序在前而搶先於分數明顯更好的正確候選。
+        best_nid = None
+        best_val = None
         for nid in next_ids:
-            if _detect(screen, scene_map[nid]):
-                return nid
+            passed, minval = _detect(screen, scene_map[nid], return_minval=True)
+            if passed and (best_val is None or minval < best_val):
+                best_nid = nid
+                best_val = minval
+        if best_nid is not None:
+            return best_nid
 
         time.sleep(poll)
 

@@ -2,7 +2,7 @@
 import cv2
 import numpy
 
-def single_match_gray(img, template, threshval, admitval):
+def single_match_gray(img, template, threshval, admitval, return_minval=False):
     outcome = False
 
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -16,7 +16,11 @@ def single_match_gray(img, template, threshval, admitval):
 
     if (minVal<=admitval):
         outcome = True
-    return outcome
+
+    if (return_minval==True):
+        return (outcome, minVal)
+    else:
+        return outcome
 
 def single_match_rgb(img, template, threshval, admitval):
     outcome = False
